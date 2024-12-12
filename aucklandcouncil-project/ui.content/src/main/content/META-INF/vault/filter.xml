@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aucklandcouncil" mode="merge"/>
+    <filter root="/content/aucklandcouncil" mode="merge"/>
+    <filter root="/content/dam/aucklandcouncil" mode="merge">
+        <exclude pattern="/content/dam/aucklandcouncil(/.*)?"/>
+        <include pattern="/content/dam/aucklandcouncil/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aucklandcouncil/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aucklandcouncil" mode="merge"/>
+</workspaceFilter>
